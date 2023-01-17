@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
+import Random from './components/Random';
+import BoxColor from './components/BoxColor';
 
 
 function App() {
@@ -27,8 +29,17 @@ function App() {
 
 <Greetings lang="de">Ludwig</Greetings>
 <br></br>
-<Greetings lang="es">François</Greetings>
+<Greetings lang="fr">François</Greetings>
+
+<Random min={1} max={6} />
+<Random min={6} max={8} />
+
+<BoxColor r={28} g={55} b={88}/>
+
+
+
     </div>
+
   );
 }
 
