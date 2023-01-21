@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
+import "./IdCard.css" 
 
 function IdCard(props) {
   return (

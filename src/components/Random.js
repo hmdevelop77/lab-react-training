@@ -1,3 +1,5 @@
+
+import "./Random.css"
 function Random(props){
     const minil = Math.ceil(props.min);
     const maxil  = Math.floor(props.max);

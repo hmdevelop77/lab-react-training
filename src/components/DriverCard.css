@@ -1,0 +1,14 @@
+
+.image{
+    width: 200px;
+    height: 100px;
+}
+.white{
+    color: white;
+}
+.container{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    background-color: rgb(87, 87, 236);
+}

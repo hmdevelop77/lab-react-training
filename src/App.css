@@ -37,16 +37,8 @@
   }
 }
 
-.container{
-  display: flex;
-  border: 2px solid
-}
-.border-name{
-  margin: 20px;
-  border: 2px solid;
-  width: 300px;
-  display:flex; 
-  justify-content: space-around;
+.star{
+  width:500px
 }
 
 

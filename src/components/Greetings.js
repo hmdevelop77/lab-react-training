@@ -1,3 +1,6 @@
+
+import "./Greetings.css"
+
 function Greetings(props) {
 
   if (props.lang === 'de') {
