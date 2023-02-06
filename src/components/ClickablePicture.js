@@ -13,7 +13,7 @@ function ClickablePicture(props) {
 
   return (
     <div>
-      <img src={Image} alt="imag" onClick={changeImage} />
+      <img width={200} src={Image} alt="imag" onClick={changeImage} />
     </div>
   );
 }
